@@ -39,7 +39,7 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> LinearRegression:
 
 
 def evaluate_model(
-    regressor: LinearRegression, X_test: pd.DataFrame, y_test: pd.Series
+        regressor: LinearRegression, X_test: pd.DataFrame, y_test: pd.Series
 ):
     """Calculates and logs the coefficient of determination.
 
